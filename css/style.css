@@ -1,0 +1,99 @@
+/* Make sure that padding behaves as expected */ 
+* {
+    box-sizing: border-box;
+    
+}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+  border-radius: 20px;
+  transition: 0.5s ease-in-out;
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 5px; /* Add top padding */
+  padding-bottom: 5px; /* Add bottom padding */
+  height: 30px;
+  color: white; /* White text color */
+  border-radius: 25px;
+  transition: 0.5s ease-in-out;
+}
+
+/* Skills bars: */
+.linux {
+    width: 50%; 
+    background: linear-gradient(to right, #e3e7e7, #04AA6D);
+    animation: width50 10s;
+} /* Green */
+
+.git {
+    width: 50%; 
+    background: linear-gradient(to right, #e3e7e7, #2196F3);
+    animation: width50 10s;
+} /* Blue */
+.clanguage {
+    width: 50%; 
+    background: linear-gradient(to right, #e3e7e7, #f44336);
+    animation: width50 10s;
+} /* Red */
+.html5 {
+    width: 50%; 
+    background: linear-gradient(to right, #e3e7e7, #808080);
+    animation: width50 10s;
+} /* Dark Grey */
+.css3{
+    width: 35%; 
+    background: linear-gradient(to right, #e3e7e7, #04AA6D);
+    animation: width35 10s;
+} /* Green */
+
+.javascript {
+    width: 15%; 
+    background: linear-gradient(to right, #e3e7e7, #2196F3);
+    animation: width15 10s;
+} /* Blue */
+.markdown {
+    width: 15%; 
+    background: linear-gradient(to right, #e3e7e7, #f44336);
+    animation: width15 10s;
+} /* Red */
+.python3 {
+    width: 15%; 
+    background: linear-gradient(to right, #e3e7e7, #808080);
+    animation: width15 10s;
+} /* Dark Grey */
+.shell{
+    width: 15%; 
+    background: linear-gradient(to right, #e3e7e7, #04AA6D);
+    animation: width15 10s;
+} /* Green */
+
+/* Animations: */
+
+@keyframes width50 {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 50%;
+    }    
+}
+@keyframes width35 {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 35%;
+    }    
+}
+@keyframes width15 {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 15%;
+    }    
+}
