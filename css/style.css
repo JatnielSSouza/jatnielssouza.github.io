@@ -23,56 +23,34 @@
 }
 
 /* Skills bars: */
-.linux {
-    width: 50%; 
+.c_c++ {
+    width: 80%; 
     background: linear-gradient(to right, #e3e7e7, #04AA6D);
     animation: width50 10s;
 } /* Green */
 
-.git {
-    width: 50%; 
+.html_css_bootstrap{
+    width: 80%; 
     background: linear-gradient(to right, #e3e7e7, #2196F3);
     animation: width50 10s;
 } /* Blue */
-.clanguage {
+.javascript_jquery {
     width: 50%; 
     background: linear-gradient(to right, #e3e7e7, #f44336);
     animation: width50 10s;
 } /* Red */
-.html5 {
-    width: 50%; 
+.python{
+    width: 30%; 
     background: linear-gradient(to right, #e3e7e7, #808080);
     animation: width50 10s;
 } /* Dark Grey */
-.css3{
-    width: 35%; 
+.java{
+    width: 20%; 
     background: linear-gradient(to right, #e3e7e7, #04AA6D);
     animation: width35 10s;
 } /* Green */
 
-.javascript {
-    width: 15%; 
-    background: linear-gradient(to right, #e3e7e7, #2196F3);
-    animation: width15 10s;
-} /* Blue */
-.markdown {
-    width: 15%; 
-    background: linear-gradient(to right, #e3e7e7, #f44336);
-    animation: width15 10s;
-} /* Red */
-.python3 {
-    width: 15%; 
-    background: linear-gradient(to right, #e3e7e7, #808080);
-    animation: width15 10s;
-} /* Dark Grey */
-.shell{
-    width: 15%; 
-    background: linear-gradient(to right, #e3e7e7, #04AA6D);
-    animation: width15 10s;
-} /* Green */
-
 /* Animations: */
-
 @keyframes width50 {
     0% {
         width: 0%;
